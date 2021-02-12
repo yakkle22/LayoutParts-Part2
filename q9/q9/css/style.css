@@ -133,6 +133,6 @@ li:nth-child(2) {
 }
 
 li:hover {
-  box-shadow: 0px 0px 10px 3px #424242d0;
+  box-shadow: 0 0 10px 3px #424242d0;
   transition: 0.5s;
 }

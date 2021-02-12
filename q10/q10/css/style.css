@@ -7,13 +7,13 @@
 
 .button {
   border-radius: 10px;
-  padding: 0px 15px 0 15px;
+  padding: 0 15px 0 15px;
   line-height: 50px;
   color: #fff;
 }
 
 .button:nth-child(2) {
-  margin: 0px 30px 0px 30px;
+  margin: 0 30px 0 30px;
 }
 
 .red {
@@ -35,15 +35,15 @@
 }
 
 .red-shadow {
-  box-shadow: 0px 5px 0px 0 rgba(63, 5, 5, 0.851);
+  box-shadow: 0 5px 0 0 rgba(63, 5, 5, 0.851);
 }
 
 .blue-shadow {
-  box-shadow: 0px 5px 0px 0 rgba(5, 13, 63, 0.851);
+  box-shadow: 0 5px 0 0 rgba(5, 13, 63, 0.851);
 }
 
 .green-shadow {
-  box-shadow: 0px 5px 0px 0 rgba(5, 63, 5, 0.851);
+  box-shadow: 0 5px 0 0 rgba(5, 63, 5, 0.851);
 }
 
 .active:active {
