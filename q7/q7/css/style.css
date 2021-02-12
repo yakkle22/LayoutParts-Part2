@@ -1,1 +1,38 @@
 @charset "UTF-8";
+
+.balloon {
+  position: relative;
+  margin: auto;
+  width: 500px;
+  padding: 20px;
+  font-size: 16px;
+  line-height: 16px;
+  background: #fad296;
+  border: solid 5px #8f5a0a;
+  border-radius: 30px;
+}
+
+.balloon::before{
+  content: '';
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  left: 30px;
+  bottom: -25px;
+  border-top: 20px solid #8f5a0a;
+  border-right: 20px solid transparent;
+  border-left: 20px solid transparent;
+}
+.balloon::after{
+  content: '';
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  left: 30px;
+  bottom: -18px;
+  border-top: 20px solid #fad296;
+  border-right: 20px solid transparent;
+  border-left: 20px solid transparent;
+}
