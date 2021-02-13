@@ -7,13 +7,15 @@
 
 .button {
   border-radius: 10px;
-  padding: 0 15px 0 15px;
+  padding: 0 15px;
   line-height: 50px;
   color: #fff;
+  cursor: pointer;
+  margin-left: 30px;
 }
 
-.button:nth-child(2) {
-  margin: 0 30px 0 30px;
+.button:first-child {
+  margin-left: 0;
 }
 
 .red {
@@ -30,9 +32,9 @@
 
 }
 
-.button:hover {
+/* .button:hover {
   cursor: pointer;
-}
+} */
 
 .red-shadow {
   box-shadow: 0 5px 0 0 rgba(63, 5, 5, 0.851);
@@ -49,7 +51,8 @@
 .active:active {
   box-shadow: none;
   position: relative;
-  top: 5px;
+  /* top: 5px; */
+  transform: translateY( 5px);
 }
 
 .hover {

@@ -58,17 +58,17 @@
   transform: rotate( 360deg ) ;
 }
 
-.hover-slide-up {
+/* .hover-slide-up {
   transition: all 0.5s;
-  }
+  } */
 
 .hover-slide-up:hover{
   transform: translate(0px,-20%);
 }
-
+/* 
 .hover-slide-right {
   transition: all 0.5s;
-  }
+  } */
 
 .hover-slide-right:hover{
   transform: translate(20%,0%);
@@ -101,11 +101,12 @@
   border-right: solid 10px #ecf1f2;
   border-bottom: solid 10px #ecf1f2;
   border-left: solid 10px #ecf1f2;
-}
-
-.circle-roll{
   animation: rotation 1.1s linear infinite;
 }
+
+/* .circle-roll{
+  animation: rotation 1.1s linear infinite;
+} */
 
 ul {
   display: flex;
